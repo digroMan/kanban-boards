@@ -1,0 +1,43 @@
+@use './variables';
+
+@mixin media($size) {  
+  @if $size == variables.$desktop-xl {
+    @media all and (max-width: 1920px) { @content; }
+  }
+
+  @else if $size == variables.$desktop-lg {
+    @media all and (max-width: 1699px) { @content; }
+  }
+
+  @else if $size == variables.$desktop-md {
+    @media all and (max-width: 1420px) { @content; }
+  }
+
+  @else if $size == variables.$desktop-sm {
+    @media all and (max-width: 1240px) { @content; }
+  }
+
+  @else if $size == variables.$tablet-lg {
+    @media all and (max-width: 1100px) { @content; }
+  }
+
+  @else if $size == variables.$tablet-md {
+    @media all and (max-width: 1023px) { @content; }
+  }
+
+  @else if $size == variables.$tablet-sm {
+    @media all and (max-width: 767px) { @content; }
+  }
+
+  @else if $size == variables.$mobile-lg {
+    @media all and (max-width: 450px) { @content; }
+  }
+
+  @else if $size == variables.$mobile-sm {
+    @media all and (max-width: 350px) { @content; }
+  }
+
+  @else {
+    @warn "Неизвестный размер экрана '#{$size}'";
+  }
+}

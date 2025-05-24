@@ -1,0 +1,75 @@
+article,
+aside,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+;
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: outside none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    outline: 0;
+    border: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
