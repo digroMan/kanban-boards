@@ -58,7 +58,7 @@ main {
 main>section {
     max-width: 1920px;
     width: 100%;
-    min-height: 900px;
+    min-height: auto;
     margin: auto;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
@@ -66,14 +66,6 @@ main>section {
     background-position: center;
     background-size: cover;
     background-color: #fff;
-
-    @include media.media(variables.$desktop-sm) {
-        min-height: auto;
-    }
-
-    @include media.media(variables.$tablet-sm) {
-        min-height: unset;
-    }
 }
 
 .container-box {

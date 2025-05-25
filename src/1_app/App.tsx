@@ -1,9 +1,11 @@
+import { Boards } from '../2_pages/Boards'
 import './App.css'
 
 function App() {
-
   return (
-    <h3>Привет мир!</h3>
+    <main>
+      <Boards/>
+    </main>
   )
 }
 
