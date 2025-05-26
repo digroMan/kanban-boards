@@ -43,9 +43,9 @@ export const Board = ({title} : TBoardProps) => {
         <div className={styles.container}>
             <Typography variant='h3'>{title}</Typography>
             <List>
-                {TASKS_NORMALIZED.byId.map(task => (
+                {Object.entries(TASKS_NORMALIZED.byId).map(([_, value]) => (
                     <ListItem>
-                        <TaskItem title={task.title} text={task.text}/>
+                        <TaskItem title={value.title} text={value.text}/>
                     </ListItem>
                 ))}
             </List>
