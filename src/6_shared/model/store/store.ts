@@ -1,8 +1,9 @@
 import {combineReducers, configureStore} from '@reduxjs/toolkit';
-const store = configureStore({
+
+export const store = configureStore({
     reducer: {
         combineReducers({
-            task: tasksSlice,
+            task: taskAdapter,
         })
     }
 });

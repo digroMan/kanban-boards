@@ -18,15 +18,15 @@ const TASKS = [
 
 const TASKS_NORMALIZED = {
     byId: {
-        1: {id: 1, title: 'Заголовок задачи 1', text:'Текст задачи 1', listId: 1},
-        2: {id: 2, title: 'Заголовок задачи 2', text:'Текст задачи 2', listId: 1},
-        3: {id: 3, title: 'Заголовок задачи 3', text:'Текст задачи 3', listId: 1},
-        4: {id: 4, title: 'Заголовок задачи 4', text:'Текст задачи 4', listId: 2},
-        5: {id: 5, title: 'Заголовок задачи 5', text:'Текст задачи 5', listId: 2},
-        6: {id: 6, title: 'Заголовок задачи 6', text:'Текст задачи 6', listId: 3},
-        7: {id: 7, title: 'Заголовок задачи 7', text:'Текст задачи 7', listId: 3},
+        'task1': {id: 'task1', title: 'Заголовок задачи 1', text:'Текст задачи 1', listId: 1},
+        'task2': {id: 'task2', title: 'Заголовок задачи 2', text:'Текст задачи 2', listId: 1},
+        'task3': {id: 'task3', title: 'Заголовок задачи 3', text:'Текст задачи 3', listId: 1},
+        'task4': {id: 'task4', title: 'Заголовок задачи 4', text:'Текст задачи 4', listId: 2},
+        'task5': {id: 'task5', title: 'Заголовок задачи 5', text:'Текст задачи 5', listId: 2},
+        'task6': {id: 'task6', title: 'Заголовок задачи 6', text:'Текст задачи 6', listId: 3},
+        'task7': {id: 'task7', title: 'Заголовок задачи 7', text:'Текст задачи 7', listId: 3},
     },
-    allIds: [1,2,3,4,5,6,7],
+    allIds: ['task1','task2','task3','task4','task5','task6','task7'],
 }
 
 const LISTS_NORMALIZED = {
