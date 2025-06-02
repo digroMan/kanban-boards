@@ -1,3 +1,5 @@
+import type { EntityState } from "@reduxjs/toolkit"
+
 export type TTask = {
     id: string,
     title: string,
@@ -6,3 +8,5 @@ export type TTask = {
 }
 
 export type TTasks=TTask[]
+
+export type TTasksState = EntityState<TTask, string>; 

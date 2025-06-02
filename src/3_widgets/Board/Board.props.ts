@@ -1,3 +1,4 @@
 export type TBoardProps = {
-    title: string,
+    listId: string,
+    title: string
 }
