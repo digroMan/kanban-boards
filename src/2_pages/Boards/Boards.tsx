@@ -16,6 +16,16 @@ const TASKS_NORMALIZED = {
     },
     allIds: ['task-1','task-2','task-3','task-4','task-5','task-6','task-7'],
 }
+
+const LISTS_NORMALIZED = {
+    byId: {
+        'listId-1': {id: 'listId-1', title: 'К работе:', tasksId: ['listId-1','listId-2','listId-3']},
+        'listId-2': {id: 'listId-2', title: 'В работе:', tasksId: ['listId-4','listId-5']},
+        'listId-3': {id: 'listId-3', title: 'Выполнено:', tasksId: ['listId-6','listId-7']},
+    },
+    allIds: ['listId-1','listId-2','listId-3'],
+}
+
 export const Boards = () => {
     const {addMany} = useActions();
 

@@ -4,7 +4,7 @@ export type TTask = {
     id: string,
     title: string,
     text: string,
-    listId: number,
+    listId: string,
 }
 
 export type TTasks=TTask[]
